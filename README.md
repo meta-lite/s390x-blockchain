@@ -15,7 +15,7 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 
 ### Ethereum Installation
 * [Geth Client](https://geth.ethereum.org/docs)
-* https://www.youtube.com/watch?v=3H-KmO7Ce4I&ab_channel=EatTheBlocks
+* [Ethereum Node Video](https://www.youtube.com/watch?v=3H-KmO7Ce4I&ab_channel=EatTheBlocks)
 * [Serum Ethereum Node Setup](https://stereum.net/ethereum-node-setup/)
 * [Geth Guide](https://www.quicknode.com/guides/infrastructure/how-to-install-and-run-a-geth-node)
 * [Polygon Docker](https://wiki.polygon.technology/docs/develop/network-details/full-node-docker)
