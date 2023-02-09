@@ -8,6 +8,12 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * [s390x Ubuntu](https://wiki.ubuntu.com/S390X)
 * [s390 Linux Kernel](https://docs.kernel.org/s390/index.html)
 
+### Need to Read
+* https://developer.ibm.com/tutorials/build-teku-and-web3signer-on-s390x-architecture/
+* https://github.com/ethereum/go-ethereum/blob/master/common/bitutil/bitutil.go
+* https://pkgs.alpinelinux.org/package/edge/community/s390x/geth
+* http://rpmfind.net/linux/RPM/epel/8/s390x/Packages/b/bitcoin-core-desktop-23.0-1.el8.s390x.html
+
 ### IBM Mainframes and Blockchain 
 * [Blockchain for IBM Z](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/destination-z1/2019/12/23/blockchain-for-ibm-z)
 * [Blockchain And The IBM zMainframe](https://planetmainframe.com/2021/08/blockchain-and-the-ibm-zmainframe-a-match-made-in-heaven/)
