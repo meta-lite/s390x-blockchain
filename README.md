@@ -35,6 +35,10 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * Git - ```sudo apt install git```
 * Rust - ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
 * Golang - ```sudo apt install golang-go```
+* Snapd - ```sudo apt install snapd```
+* Nodejs - ```sudo snap install node```
+* NVM - ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash```
+* NPM - ```sudo snap install npm```
 
 ## Ethereum Installation
 
