@@ -27,6 +27,13 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * [Polygon Docker](https://wiki.polygon.technology/docs/develop/network-details/full-node-docker)
 * [Ethereum Node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/)
 
+## Compatible Dependencies for s390X
+
+* Makefile - ```sudo apt install make```
+* Git - ```sudo apt install git```
+* Rust - ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
+* Golang - ```sudo apt install golang-go```
+
 ## Ethereum Installation
 
 ### Ethereum Dependencies
