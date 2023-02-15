@@ -39,6 +39,8 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * Nodejs - ```sudo snap install node```
 * NVM - ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash```
 * NPM - ```sudo snap install npm```
+* Python - ```sudo apt install python```
+* Pip - ```sudo apt install python-pip```
 
 ## Ethereum Installation
 
