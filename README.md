@@ -50,10 +50,23 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 
 ### Ethereum Dependencies
 
-### Installation Guide
+### Geth Installation Guide
 1. ssh into the server
 ```
 ssh<user>@<ip-address>
+```
+#### Teku Deps
+Java 
+### Teku Installation Guide
+1. 
+```
+$ git clone https://github.com/Consensys/teku.git
+```
+```
+cd teku
+```
+```
+$ ./gradlew distTar installDist
 ```
 
 ## Polygon
