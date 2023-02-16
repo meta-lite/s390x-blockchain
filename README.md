@@ -41,6 +41,7 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * NPM - ```sudo snap install npm```
 * Python - ```sudo apt install python```
 * Pip - ```sudo apt install python-pip```
+* s390 Tools - ```s390-tools```
 
 ## Ethereum Installation
 
