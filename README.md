@@ -14,6 +14,7 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * https://pkgs.alpinelinux.org/package/edge/community/s390x/geth
 * http://rpmfind.net/linux/RPM/epel/8/s390x/Packages/b/bitcoin-core-desktop-23.0-1.el8.s390x.html
 * https://docs.anaconda.com/anaconda/packages/py3.9_linux-s390x/
+* https://www.coindesk.com/learn/ethereum-nodes-and-clients-a-complete-guide/ - try java and rust based options
 
 ### IBM Mainframes and Blockchain 
 * [Blockchain for IBM Z](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/destination-z1/2019/12/23/blockchain-for-ibm-z)
