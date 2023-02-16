@@ -113,6 +113,19 @@ sudo ln -nfs ~/bor/build/bin/bor /usr/bin/bor
 bor version
 ```
 
+#### Configure
+```
+git clone https://github.com/maticnetwork/launch
+```
+```
+cd
+```
+```
+mkdir -p node
+```
+```
+cp -rf launch/mainnet-v1/sentry/sentry/* ~/node
+```
   
 
 
