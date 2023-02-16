@@ -49,13 +49,50 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 
 ## Ethereum Installation
 
-### Ethereum Dependencies
-
-### Geth Installation Guide
-1. ssh into the server
+### Geth Dependencies
+0. ssh into the server
 ```
 ssh<user>@<ip-address>
 ```
+1. Update your package library - 
+```
+sudo apt update && sudo apt upgrade
+```
+```
+2. Install Makefile - 
+```
+sudo apt install make
+```
+3a. Add Ethereum repository to Apt
+```
+sudo add-apt-repository -y ppa:ethereum/ethereum
+```
+3b. Update package lists to reflect Ethereum repository
+```
+sudo apt-get update
+```
+### Geth Installation Guide - Ubuntu x86 - test on ARM? 
+1. Install Geth Package
+```
+sudo apt-get install ethereum
+```
+2. Check to ensure installation was successful
+```
+geth version
+```
+Output should be similar to the following: 
+`Geth
+Version 1.11.1-stable
+Git Commit <git commit here>
+Architecture: amd64
+Go Version: go1.20.1
+Operating System: linux
+GOPATH=
+GOROOT=`
+
+
+
+
 #### Teku Deps
 Java 
 ### Teku Installation Guide
