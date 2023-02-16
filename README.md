@@ -54,3 +54,13 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 ```
 ssh<user>@<ip-address>
 ```
+
+## Polygon
+
+### Polygon Dependancies 
+
+### Polygon Installation
+
+
+
+
