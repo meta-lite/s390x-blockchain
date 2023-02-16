@@ -58,7 +58,6 @@ ssh<user>@<ip-address>
 ```
 sudo apt update && sudo apt upgrade
 ```
-```
 2. Install Makefile - 
 ```
 sudo apt install make
@@ -80,15 +79,17 @@ sudo apt-get install ethereum
 ```
 geth version
 ```
-Output should be similar to the following: 
-`Geth
+
+```Output should be similar to the following: 
+Geth
 Version 1.11.1-stable
 Git Commit <git commit here>
 Architecture: amd64
 Go Version: go1.20.1
 Operating System: linux
 GOPATH=
-GOROOT=`
+GOROOT=
+```
 
 
 
