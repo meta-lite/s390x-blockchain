@@ -43,6 +43,7 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * Pip3 - ```sudo apt install python-pip3```
 * s390 Tools - ```s390-tools```
 * Ansible - ```sudo apt install ansible``` - needed for polygon
+* Build Tools - ```sudo apt-get install build-essential```
 
 ## Ethereum Installation
 
@@ -61,11 +62,58 @@ ssh<user>@<ip-address>
 * go
 * ansible?
 
+```
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt install golang-go
+```
+
 ### Polygon Installation
 * https://wiki.polygon.technology/docs/develop/network-details/full-node-binaries
 * https://wiki.polygon.technology/docs/develop/network-details/full-node/ - does not work
+#### Heimdall
+```
+cd
+```
+```
+git clone https://github.com/maticnetwork/heimdall
+```
+```
+cd heimdall
+```
+```
+make install
+```
+```
+source ~/.profile
+```
+```
+heimdalld version --long
+```
+#### Bor
+```
+cd
+```
+```
+git clone https://github.com/maticnetwork/bor
+```
+```
+cd bor
+```
+```
+make bor
+```
+```
+sudo ln -nfs ~/bor/build/bin/bor /usr/bin/bor
+```
+```
+sudo ln -nfs ~/bor/build/bin/bor /usr/bin/bor
+```
+```
+bor version
 ```
 
+  
 
 
 
