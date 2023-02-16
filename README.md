@@ -126,7 +126,7 @@ mkdir -p node
 ```
 cp -rf launch/mainnet-v1/sentry/sentry/* ~/node
 ```
-  
+Errors past this point
 
 
 
