@@ -49,7 +49,7 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 
 ## Ethereum Installation
 
-### Geth Dependencies
+### Ubuntu Geth Dependencies
 0. ssh into the server
 ```
 ssh<user>@<ip-address>
@@ -70,7 +70,7 @@ sudo add-apt-repository -y ppa:ethereum/ethereum
 ```
 sudo apt-get update
 ```
-### Geth Installation Guide - Ubuntu x86 - test on ARM? 
+### Geth Installation Guide - Ubuntu x86
 1. Install Geth Package
 ```
 sudo apt-get install ethereum
@@ -90,6 +90,30 @@ Operating System: linux
 GOPATH=
 GOROOT=
 ```
+
+### ARM Geth Dependancies - Raspberry Pi Compatible
+1. Make
+2. Snapd
+
+### ARM Geth Installation 
+1. Install Snapd Store
+```
+sudo apt install snapd
+```
+2. Install Snapd Core
+```
+sudo snap install core
+```
+3. Install Geth
+```
+sudo snap install geth
+```
+4. Reboot
+```
+sudo reboot now
+```
+
+
 
 
 
