@@ -2,7 +2,7 @@
 Exploration into the application of running blockchain nodes on IBM s390x Z Mainframe architecture
 
 ## Guides
-* [Ethereum](https://github.com/meta-lite/s390x-blockchain/tree/main/ethereum)
+* [Ethereum](https://github.com/meta-lite/s390x-blockchain/blob/main/ethereum/ethereum.md)
 * [Polygon](https://github.com/meta-lite/s390x-blockchain/blob/main/polygon/polygon-s390.md)
 
 ## Resources 
