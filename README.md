@@ -1,11 +1,9 @@
 # s390x-blockchain
 Exploration into the application of running blockchain nodes on IBM s390x Z Mainframe architecture
 
-
 ## Guides
-* [Ethereum]
-
-
+* [Ethereum]()
+* [Polygon]()
 
 ## Resources 
 ### s390x and Blockchain
@@ -35,7 +33,6 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * [Ethereum Node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/)
 
 ## Compatible Dependencies for s390X
-
 * Makefile - ```sudo apt install make```
 * Git - ```sudo apt install git```
 * Rust - ```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
@@ -53,165 +50,3 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * Java - ```sudo apt install default-jre```
 * Curl - ```sudo apt install curl```
 * Docker - ```sudo apt install docker.io```
-* 
-
-## Ethereum Installation
-
-### Ubuntu Geth Dependencies
-0. ssh into the server
-```
-ssh<user>@<ip-address>
-```
-1. Update your package library - 
-```
-sudo apt update && sudo apt upgrade
-```
-2. Install Makefile - 
-```
-sudo apt install make
-```
-3a. Add Ethereum repository to Apt
-```
-sudo add-apt-repository -y ppa:ethereum/ethereum
-```
-3b. Update package lists to reflect Ethereum repository
-```
-sudo apt-get update
-```
-### Geth Installation Guide - Ubuntu x86
-1. Install Geth Package
-```
-sudo apt-get install ethereum
-```
-2. Check to ensure installation was successful
-```
-geth version
-```
-
-```Output should be similar to the following: 
-Geth
-Version 1.11.1-stable
-Git Commit <git commit here>
-Architecture: amd64
-Go Version: go1.20.1
-Operating System: linux
-GOPATH=
-GOROOT=
-```
-
-### ARM Geth Dependancies - Raspberry Pi Compatible
-1. Make
-2. Snapd
-
-### ARM Geth Installation 
-1. Install Snapd Store
-```
-sudo apt install snapd
-```
-2. Install Snapd Core
-```
-sudo snap install core
-```
-3. Install Geth
-```
-sudo snap install geth
-```
-4. Reboot
-```
-sudo reboot now
-```
-
-
-
-
-
-
-#### Teku Deps
-Java 
-### Teku Installation Guide
-1. 
-```
-$ git clone https://github.com/Consensys/teku.git
-```
-```
-cd teku
-```
-```
-$ ./gradlew distTar installDist
-```
-
-## Polygon
-
-### Polygon Dependancies 
-* make
-* go
-* ansible?
-
-```
-sudo apt-get update
-sudo apt-get install build-essential
-sudo apt install golang-go
-```
-
-### Polygon Installation
-* https://wiki.polygon.technology/docs/develop/network-details/full-node-binaries
-* https://wiki.polygon.technology/docs/develop/network-details/full-node/ - does not work
-#### Heimdall
-```
-cd
-```
-```
-git clone https://github.com/maticnetwork/heimdall
-```
-```
-cd heimdall
-```
-```
-make install
-```
-```
-source ~/.profile
-```
-```
-heimdalld version --long
-```
-#### Bor
-```
-cd
-```
-```
-git clone https://github.com/maticnetwork/bor
-```
-```
-cd bor
-```
-```
-make bor
-```
-```
-sudo ln -nfs ~/bor/build/bin/bor /usr/bin/bor
-```
-```
-sudo ln -nfs ~/bor/build/bin/bor /usr/bin/bor
-```
-```
-bor version
-```
-
-#### Configure
-```
-git clone https://github.com/maticnetwork/launch
-```
-```
-cd
-```
-```
-mkdir -p node
-```
-```
-cp -rf launch/mainnet-v1/sentry/sentry/* ~/node
-```
-Errors past this point
-
-
-
