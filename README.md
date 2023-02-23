@@ -46,6 +46,7 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * Ansible - ```sudo apt install ansible``` - needed for polygon
 * Build Tools - ```sudo apt-get install build-essential```
 * Java - ```sudo apt install default-jre```
+* Curl - ```sudo apt install curl```
 
 ## Ethereum Installation
 
