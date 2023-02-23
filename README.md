@@ -15,7 +15,6 @@ Exploration into the application of running blockchain nodes on IBM s390x Z Main
 * https://developer.ibm.com/tutorials/build-teku-and-web3signer-on-s390x-architecture/
 * https://github.com/ethereum/go-ethereum/blob/master/common/bitutil/bitutil.go
 * https://pkgs.alpinelinux.org/package/edge/community/s390x/geth
-* https://www.coindesk.com/learn/ethereum-nodes-and-clients-a-complete-guide/ - try java and rust based options
 
 ### IBM Mainframes and Blockchain 
 * [Blockchain for IBM Z](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/destination-z1/2019/12/23/blockchain-for-ibm-z)
