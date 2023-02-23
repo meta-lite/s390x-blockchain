@@ -1,8 +1,13 @@
 # s390x-blockchain
 Exploration into the application of running blockchain nodes on IBM s390x Z Mainframe architecture
 
-## Resources 
 
+## Guides
+* [Ethereum]
+
+
+
+## Resources 
 ### s390x and Blockchain
 * [s390 Wiki](https://en.wikipedia.org/wiki/IBM_System/390)
 * [s390x Ubuntu](https://wiki.ubuntu.com/S390X)
